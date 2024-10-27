@@ -1,17 +1,21 @@
-const fs = require('fs');
-const path = require('path');
+// app_server/controllers/travel.js
 
-let trips;
-try {
-    trips = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/trips.json'), 'utf8'));
-} catch (error) {
-    console.error("Error reading trips.json:", error);
-}
+const tripsEndpoint = 'http://localhost:3000/api/trips';
 
-/* GET travel view */
-const travel = (req, res) => {
-    console.log(trips); // Check if trips data is loaded correctly
-    res.render('travel', { title: 'Travlr Getaways', trips });
+const travel = async (req, res) => {
+    try {
+        const response = await fetch(tripsEndpoint);
+        const trips = await response.json();
+
+        if (!(trips instanceof Array) || trips.length === 0) {
+            return res.render('travel', { title: 'Travlr Getaways', message: 'No trips available' });
+        }
+
+        res.render('travel', { title: 'Travlr Getaways', trips });
+    } catch (error) {
+        console.error('Error fetching trips:', error);
+        res.status(500).render('error', { message: 'Error retrieving trips' });
+    }
 };
 
 module.exports = {

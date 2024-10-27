@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"> <!-- Set character encoding -->
+    <title>{{title}}</title> <!-- Dynamic page title from server -->
+    <link rel="stylesheet" href="css/style.css" type="text/css"> <!-- External CSS -->
+</head>
+<body>
+    <div id="background"> <!-- Main background -->
+        <div id="page"> <!-- Main content container -->
+            {{> header rooms="rooms"}} <!-- Include header partial -->
+
+            <div id="contents"> <!-- Content section -->
+                <div class="box">
+                    <div>
+                        <div class="body"> <!-- Rooms content container -->
+                            <h1>Rooms</h1> <!-- Page header -->
+                            <ul id="rooms"> <!-- List of room options -->
+                                <li>
+                                    <a href="rooms.html"><img src="images/first-class.jpg" alt="Img"></a> <!-- First class room image -->
+                                    <h2><a href="rooms.html">First Class Room</a></h2> <!-- Room title -->
+                                    <p>
+                                        Cras dui sapien, feugiat vitae tristique ut, lobortis tempor orci. Donec pulvinar sagittis metus ut tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                                    </p>
+                                    <span class="rate">Rate: 220 / Day</span> <!-- Room rate -->
+                                </li>
+                                <li>
+                                    <a href="rooms.html"><img src="images/deluxe.jpg" alt="Img"></a> <!-- Deluxe room image -->
+                                    <h2><a href="rooms.html">Deluxe Room</a></h2> <!-- Room title -->
+                                    <p>
+                                        Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida. Vestibulum sit amet porttitor odio. Nulla facilisi. Fusce at pretium felis.
+                                    </p>
+                                    <span class="rate">Rate: 150 / Day</span> <!-- Room rate -->
+                                </li>
+                                <li>
+                                    <a href="rooms.html"><img src="images/suite.jpg" alt="Img"></a> <!-- Suite room image -->
+                                    <h2><a href="rooms.html">Suite Room</a></h2> <!-- Room title -->
+                                    <p>
+                                        Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida. Vestibulum sit amet porttitor odio. Nulla facilisi. Fusce at pretium felis.
+                                    </p>
+                                    <span class="rate">Rate: 180 / Day</span> <!-- Room rate -->
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{> footer}} <!-- Include footer partial -->
+    </div>
+</body>
+</html>
