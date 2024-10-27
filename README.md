@@ -21,6 +21,27 @@ A full stack travel booking web application developed using the MEAN stack (Mong
 
 This project was developed as part of my coursework in CS-465 Full Stack Development I, focusing on creating a fully functional web application that meets the client's requirements. For a deeper understanding of the project’s architecture and requirements, refer to the relevant documents.
 
+### Architecture
+
+For Travlr Getaways, I used different frontend development techniques to deliver a dynamic and interactive user experience. Initially, I served static HTML pages through Express for basic routing, which was great for quick prototypes. As the project moved forward, I integrated JavaScript to add interactivity by handling events and manipulating the DOM. Eventually, I transitioned the project into a single-page application (SPA) using Angular, which made the user experience much smoother by letting content update without having to reload the entire page. The SPA approach really boosted performance by cutting down server requests and making changes directly on the client side.
+
+On the backend, I went with a NoSQL MongoDB database because of its flexibility for handling unstructured data and easy scalability. The schema-less design was especially helpful for managing the various travel package details, customer profiles, and bookings without having to deal with extensive database changes every time requirements evolved. Plus, its JSON-like structure matched well with the rest of the full stack, making it easy to move data between the server and the client.
+
+### Functionality
+
+JSON, or JavaScript Object Notation, is different from JavaScript itself because it's a lightweight format specifically for data exchange, while JavaScript is used for scripting and logic. In Travlr Getaways, JSON played a key role in linking the backend and frontend, acting as the format for API responses that Angular could easily parse and display. This made the interaction between different parts of the app seamless.
+
+Throughout the project, I refactored the code multiple times to improve functionality and efficiency. For instance, I created reusable UI components in Angular, such as travel package cards and booking forms. This approach ensured consistency across the app, reduced code duplication, and sped up the development process. Reusable components made it easier to add new features since existing elements could be adapted as needed.
+
+### Testing
+
+Testing the APIs was crucial for making sure everything worked correctly in Travlr Getaways. I performed different kinds of tests, such as functional tests to ensure the API endpoints handled GET, POST, PUT, and DELETE requests correctly. Adding authentication for the admin portal introduced extra layers of security, which required checking that endpoints not only returned the correct data but also enforced proper access controls. Understanding the use of different request methods (like GET for fetching data and POST for creating new entries) was essential for implementing and testing the API endpoints effectively.
+
+### Reflection
+
+This course has been really helpful in my professional journey, giving me hands-on experience in full stack development. I’ve built up skills in using the MEAN stack to create scalable web applications, and I’ve learned best practices for organizing code, managing state, and securing web apps. These skills have made me a stronger candidate in the job market since I now have practical knowledge in modern web development technologies, backend architecture, and frontend frameworks like Angular. This experience has also boosted my confidence in tackling complex projects, setting me up for success in a software development career.
+
+
 ## Built With
 This project utilizes the following frameworks and technologies:
 - **Node.js**
