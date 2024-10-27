@@ -20,8 +20,7 @@ A full stack travel booking web application developed using the MEAN stack (Mong
 ## About The Project
 "Travlr Getaways" is designed as a travel booking site where customers can create accounts, search for travel packages by location and price, and view their itineraries. The project also includes an admin portal for managing trips and customer data.
 
-This project was developed as part of my coursework in CS-465 Full Stack Development I, focusing on creating a fully functional web application that meets the client's requirements. For a deeper understanding of the project’s architecture and requirements, refer to the [Guidelines and Rubric document](link_to_guidelines) and the [Wireframe document](link_to_wireframe).
-
+This project was developed as part of my coursework in CS-465 Full Stack Development I, focusing on creating a fully functional web application that meets the client's requirements. For a deeper understanding of the project’s architecture and requirements.
 ## Built With
 This project utilizes the following frameworks and technologies:
 - **Node.js**
