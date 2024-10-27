@@ -14,8 +14,6 @@ A full stack travel booking web application developed using the MEAN stack (Mong
 - [Functionality](#functionality)
 - [Testing](#testing)
 - [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 - [Acknowledgments](#acknowledgments)
 
@@ -42,18 +40,45 @@ npm install npm@latest -g
 ## Installation
 To install and run the Travlr Getaways application on your local machine, follow these steps:
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/MadiFleitas/cs465.git
-Contact
+## Functionality
+The Travlr Getaways application features two main components:
+
+- **Customer-Facing Website**: Users can:
+  - Create and manage their accounts.
+  - Search for travel packages based on location and price.
+  - View their itineraries and book reservations.
+
+- **Admin Portal**: Administrators can:
+  - Log in securely to manage customer data.
+  - Add, edit, or delete travel packages.
+  - Update pricing and availability of trips.
+
+## Testing
+Testing for the Travlr Getaways application involves several methodologies:
+
+- **API Testing**: Ensure all endpoints function correctly using tools like Postman to verify GET, POST, PUT, and DELETE requests.
+- **Unit Testing**: Implement unit tests for critical components using frameworks such as Jasmine and Karma for Angular.
+- **Integration Testing**: Validate interactions between the front end and back end to ensure seamless data flow and functionality.
+
+## Roadmap
+Future improvements for the Travlr Getaways application may include:
+
+- Enhanced user authentication features, including OAuth for third-party logins.
+- Improved UI/UX based on user feedback.
+- Integration of a search filter for travel packages by multiple criteria.
+- Addition of payment processing features for booking trips.
+- Deployment to a cloud service for wider accessibility.
+
+## Contact
 For any inquiries or collaboration opportunities, feel free to reach out to me:
 
-Email: madison.a.fleitas@gmail.com
-LinkedIn: (https://www.linkedin.com/in/madison-fleitas-40b215185/)
-GitHub: (https://github.com/MadiFleitas)
+- **Email**: [madison.a.fleitas@gmail.com](mailto:madison.a.fleitas@gmail.com)
+- **GitHub**: [https://github.com/MadiFleitas](https://github.com/MadiFleitas)
+- **LinkedIn**: [https://www.linkedin.com/in/madison-fleitas-40b215185/](https://www.linkedin.com/in/madison-fleitas-40b215185/)
 
-Acknowledgments
-Thanks to Node.js for providing the runtime environment.
-Appreciation to Express.js for simplifying server-side development.
-Special thanks to MongoDB for its flexible NoSQL database capabilities.
-Thanks to Angular for enabling the development of a dynamic single-page application.
+## Acknowledgments
+- Thanks to [Node.js](https://nodejs.org/) for providing the runtime environment.
+- Appreciation to [Express.js](https://expressjs.com/) for simplifying server-side development.
+- Special thanks to [MongoDB](https://www.mongodb.com/) for its flexible NoSQL database capabilities.
+- Thanks to [Angular](https://angular.io/) for enabling the development of a dynamic single-page application.
+
