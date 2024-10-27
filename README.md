@@ -2,7 +2,8 @@
 
 A full stack travel booking web application developed using the MEAN stack (MongoDB, Express, Angular, Node.js).
 
-![Travlr Getaways Logo](path_to_your_logo)
+![Travlr Getaways Logo](https://raw.githubusercontent.com/your_username/cs465/main/public/images/logo.png)
+
 
 ## Table of Contents
 - [About The Project](#about-the-project)
