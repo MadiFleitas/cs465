@@ -38,3 +38,22 @@ To install and run this application on your own machine, follow these steps:
 Make sure you have `npm` installed on your machine.
 ```bash
 npm install npm@latest -g
+
+## Installation
+To install and run the Travlr Getaways application on your local machine, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/MadiFleitas/cs465.git
+Contact
+For any inquiries or collaboration opportunities, feel free to reach out to me:
+
+Email: madison.a.fleitas@gmail.com
+LinkedIn: (https://www.linkedin.com/in/madison-fleitas-40b215185/)
+GitHub: (https://github.com/MadiFleitas)
+
+Acknowledgments
+Thanks to Node.js for providing the runtime environment.
+Appreciation to Express.js for simplifying server-side development.
+Special thanks to MongoDB for its flexible NoSQL database capabilities.
+Thanks to Angular for enabling the development of a dynamic single-page application.
