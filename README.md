@@ -1,13 +1,39 @@
-<<<<<<< HEAD
-# CS465
-=======
-# module1
-Prompt
-Refer to the Module One Full Stack Guide linked in the Supporting Materials section below. Before you begin, clone your GitHub repository to a directory on your local computer, update the Git Ignore settings, and create a module1 branch to track the work done here.
+# Travlr Getaways
 
-Specifically, you must address the following rubric criteria:
+A full stack travel booking web application developed using the MEAN stack (MongoDB, Express, Angular, Node.js).
 
-Build a website using the Node.js server and the Express framework. Create a full stack web application based on the client wireframe. Begin by setting up the website folder in the server framework application called Express. This framework can serve static HTML content and support using JavaScript to code the necessary logic and behaviors required to meet the client requirements.
-Correctly place static HTML content into the appropriate Express framework folders. Import the static HTML into the public folder and verify that the web server correctly sends the content to your web browser when you navigate to the proper URL.
-Test the software installation to show that it renders the static HTML content in the browser. Test the software application by using input and output to show that the application can display the HTML in Express.
->>>>>>> 66a44320b69745fc1d9d7ba2168b422ffdaa285b
+![Travlr Getaways Logo](path_to_your_logo)
+
+## Table of Contents
+- [About The Project](#about-the-project)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Functionality](#functionality)
+- [Testing](#testing)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgments](#acknowledgments)
+
+## About The Project
+"Travlr Getaways" is designed as a travel booking site where customers can create accounts, search for travel packages by location and price, and view their itineraries. The project also includes an admin portal for managing trips and customer data.
+
+This project was developed as part of my coursework in CS-465 Full Stack Development I, focusing on creating a fully functional web application that meets the client's requirements. For a deeper understanding of the project’s architecture and requirements, refer to the [Guidelines and Rubric document](link_to_guidelines) and the [Wireframe document](link_to_wireframe).
+
+## Built With
+This project utilizes the following frameworks and technologies:
+- **Node.js**
+- **Express**
+- **MongoDB**
+- **Angular**
+
+## Getting Started
+To install and run this application on your own machine, follow these steps:
+
+### Prerequisites
+Make sure you have `npm` installed on your machine.
+```bash
+npm install npm@latest -g
