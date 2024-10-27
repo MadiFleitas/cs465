@@ -61,3 +61,16 @@ To install and run the Travlr Getaways application on your local machine, follow
    - For the API: http://localhost:3000
    - For the Angular frontend: http://localhost:4200
 
+## Functionality
+The Travlr Getaways application features two main components:
+
+- Customer-Facing Website: Users can:
+  - Create and manage their accounts.
+  - Search for travel packages based on location and price.
+  - View their itineraries and book reservations.
+
+- Admin Portal: Administrators can:
+  - Log in securely to manage customer data.
+  - Add, edit, or delete travel packages.
+  - Update pricing and availability of trips.
+
