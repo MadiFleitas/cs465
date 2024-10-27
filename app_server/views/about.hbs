@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"> <!-- Set character encoding -->
+    <title>{{title}}</title> <!-- Page title from server -->
+    <link rel="stylesheet" href="css/style.css" type="text/css"> <!-- External CSS -->
+</head>
+<body>
+    <div id="background"> <!-- Main background -->
+        <div id="page"> <!-- Main content container -->
+            {{> header about="about"}} <!-- Include header partial -->
+
+            <div id="contents"> <!-- Content section -->
+                <div class="box">
+                    <div>
+                        <div class="body">
+                            <h1>About</h1> <!-- Page header -->
+                            <h2>We Have Free Templates for Everyone</h2> <!-- Subheader -->
+                            <p>
+                                Our website templates are created with inspiration, checked for quality and originality, and meticulously sliced and coded. They're absolutely free! You can modify and use them to design websites for clients, as long as you agree with the <a href="http://www.freewebsitetemplates.com/about/terms/">Terms of Use</a>. You can even remove our links if you want.
+                            </p>
+                            <p>
+                                We Have More Templates for You. Looking for more? Browse all our <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a>. If you don't find any that suit your needs, try our <a href="http://www.freewebsitetemplates.com/freewebdesign/">Free Web Design</a> service. We love the challenge of doing something different and special.
+                            </p>
+                            <hr> <!-- Divider -->
+
+                            <div class="ads"> <!-- Extra details -->
+                                <h2>Our Crews</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a arcu ipsum.</p>
+                                <h2>Amenities</h2>
+                                <p>Phasellus porta ultrices lorem vel luctus. Cras sodales nulla vitae eros fermentum consequat. Aenean at purus odio.</p>
+                            </div>
+
+                            <h2>Be Part of Our Community</h2>
+                            <p>
+                                If you're having issues with this template, join the discussion <a href="http://www.freewebsitetemplates.com/forums/">on our forum</a> and connect with others in the community.
+                            </p>
+                            <h2>Template Details</h2>
+                            <p>
+                                Design version 14. Code version 4. Discussion and updates for this <a href="http://www.freewebsitetemplates.com/discuss/beachresort/">Travlr Getaways Web Template</a>. Designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a>. Feel free to remove the text and links on this page and replace them with your own content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{> footer}} <!-- Include footer partial -->
+    </div>
+</body>
+</html>

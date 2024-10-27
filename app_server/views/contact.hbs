@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"> <!-- Set character encoding -->
+    <title>{{title}}</title> <!-- Dynamic page title from server -->
+    <link rel="stylesheet" href="css/style.css" type="text/css"> <!-- External CSS -->
+</head>
+<body>
+    <div id="background"> <!-- Main background -->
+        <div id="page"> <!-- Main content container -->
+            {{> header contact="contact"}} <!-- Include header partial -->
+
+            <div id="contents"> <!-- Content section -->
+                <div class="box">
+                    <div>
+                        <div id="contact" class="body"> <!-- Contact form container -->
+                            <h1>Contact</h1> <!-- Page header -->
+                            <form action="index.html" method="post"> <!-- Contact form -->
+                                <table> <!-- Form table layout -->
+                                    <tbody>
+                                        <tr>
+                                            <td>Name:</td>
+                                            <td><input type="text" value="" class="txtfield"></td> <!-- Name field -->
+                                        </tr>
+                                        <tr>
+                                            <td>Email:</td>
+                                            <td><input type="text" value="" class="txtfield"></td> <!-- Email field -->
+                                        </tr>
+                                        <tr>
+                                            <td>Subject:</td>
+                                            <td><input type="text" value="" class="txtfield"></td> <!-- Subject field -->
+                                        </tr>
+                                        <tr>
+                                            <td class="txtarea">Message:</td>
+                                            <td><textarea></textarea></td> <!-- Message textarea -->
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td><input type="submit" value="" class="btn"></td> <!-- Submit button -->
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </form>
+                            <h2>Travlr Getaways</h2> <!-- Company details -->
+                            <p>
+                                <span>Address:</span> 123 Lorem Ipsum Cove, Sed Ut City, LI 12345
+                            </p>
+                            <p>
+                                <span>Telephone Number:</span> 1-800-999-9999
+                            </p>
+                            <p>
+                                <span>Fax Number:</span> 1-800-111-1111
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{> footer}} <!-- Include footer partial -->
+    </div>
+</body>
+</html>
