@@ -33,101 +33,31 @@ This project utilizes the following frameworks and technologies:
 ## Getting Started
 To install and run this application on your own machine, follow these steps:
 
-### Prerequisites
-Make sure you have `npm` installed on your machine.
-```bash
-npm install npm@latest -g
-Installation
+## Installation
 To install and run the Travlr Getaways application on your local machine, follow these steps:
 
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/MadiFleitas/cs465.git
-Navigate to the server directory:
-bash
-Copy code
-cd cs465/app_server
-Install server dependencies:
-bash
-Copy code
-npm install
-Start the server:
-bash
-Copy code
-npm run start:server
-In a new terminal, navigate to the admin directory:
-bash
-Copy code
-cd ../app_admin
-Install frontend dependencies:
-bash
-Copy code
-npm install
-Start the Angular development server:
-bash
-Copy code
-ng serve
-Open your web browser and navigate to:
-For the API: http://localhost:3000
-For the Angular frontend: http://localhost:4200
-Functionality
-The Travlr Getaways application features two main components:
+1. Clone the repository:
+   git clone https://github.com/MadiFleitas/cs465.git
 
-Customer-Facing Website: Users can:
+2. Navigate to the server directory:
+   cd cs465/app_server
 
-Create and manage their accounts.
-Search for travel packages based on location and price.
-View their itineraries and book reservations.
-Admin Portal: Administrators can:
+3. Install server dependencies:
+   npm install
 
-Log in securely to manage customer data.
-Add, edit, or delete travel packages.
-Update pricing and availability of trips.
-Testing
-Testing for the Travlr Getaways application involves several methodologies:
+4. Start the server:
+   npm run start:server
 
-API Testing: Ensure all endpoints function correctly using tools like Postman to verify GET, POST, PUT, and DELETE requests.
-Unit Testing: Implement unit tests for critical components using frameworks such as Jasmine and Karma for Angular.
-Integration Testing: Validate interactions between the front end and back end to ensure seamless data flow and functionality.
-Roadmap
-Future improvements for the Travlr Getaways application may include:
+5. In a new terminal, navigate to the admin directory:
+   cd ../app_admin
 
-Enhanced user authentication features, including OAuth for third-party logins.
-Improved UI/UX based on user feedback.
-Integration of a search filter for travel packages by multiple criteria.
-Addition of payment processing features for booking trips.
-Deployment to a cloud service for wider accessibility.
-Contributing
-Contributions to the Travlr Getaways project are welcome! Here’s how you can help:
+6. Install frontend dependencies:
+   npm install
 
-Fork the repository.
-Create a new branch:
-bash
-Copy code
-git checkout -b feature/YourFeatureName
-Make your changes and commit them:
-bash
-Copy code
-git commit -m 'Add some feature'
-Push to your branch:
-bash
-Copy code
-git push origin feature/YourFeatureName
-Open a pull request.
-Please ensure your code adheres to the project’s coding standards and includes appropriate comments.
+7. Start the Angular development server:
+   ng serve
 
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+8. Open your web browser and navigate to:
+   - For the API: http://localhost:3000
+   - For the Angular frontend: http://localhost:4200
 
-Contact
-For any inquiries or collaboration opportunities, feel free to reach out to me:
-
-Email: madison.a.fleitas@gmail.com
-GitHub: MadiFleitas
-LinkedIn: madison-fleitas-40b215185
-Acknowledgments
-Thanks to Node.js for providing the runtime environment.
-Appreciation to Express.js for simplifying server-side development.
-Special thanks to MongoDB for its flexible NoSQL database capabilities.
-Thanks to Angular for enabling the development of a dynamic single-page application.
